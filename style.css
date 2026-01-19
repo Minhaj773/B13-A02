@@ -155,3 +155,19 @@ span{
     font-weight: 900;
     color:#00FF88;
 }
+/* about ends */
+
+/* footer starts */
+#footer{
+    max-width: 1600px;
+    height: 412px;
+    color: white;
+    text-align: center;
+    background-image: url(assets/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#footer-container{
+    border: 2px solid white;
+}
