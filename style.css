@@ -1,0 +1,157 @@
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+body{
+    width: 1600px;
+    margin: 0px;
+}
+/* nav starts */
+nav{
+    background-color: gray;
+    color: white;
+
+}
+#nav-container{
+    width: 1600px;
+    height: 92px;
+    border: 2px solid white;
+    padding: 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+span{
+    color: aqua;
+}
+ nav, ul{
+    display: flex;
+ }
+
+ ul, a{
+    list-style: none;
+    text-decoration: none;
+    gap: 32px;
+    color: white;
+ }
+
+ .nav-btn{
+    width: 135px;
+    height: 44px;
+    background-color: bisque;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+ /* nav ends */
+
+ /* hero starts */
+ #hero-banner{
+    max-height: 760px;
+    background-image: url("assets/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:100px 525px;
+ }
+#hero-container{
+    width: 550px;
+    height: 558px;
+    border: 4px solid white;
+    text-align: center;
+    align-items: center;   
+}
+#img-container{
+    width: 350px;
+    height: 350px;
+    border: 2px solid white;
+    background-image: url("assets/hero-circle.png");
+}
+#hero-h1{
+    color: white;
+    margin: auto;
+    font-size: 60px;
+    font-weight: 900;
+}
+#hero-p{
+    color: white;
+}
+#hero-btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#hero-btn-1{
+    width: 201px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: transparent;
+}
+#hero-btn-2{
+    width: 147px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+    align-items: center;
+    color: #00FF88;
+    border-radius: 20px;
+    border: 2px solid #00FF88;
+    background-color: transparent;
+}
+.bt-text-1{
+    width: 16px;
+    height: 16px;
+}
+.bt-text-2{
+    width: 18px;
+    height: 14px;
+}
+/* hero ends */
+
+/* about starts */
+#about-container{
+    max-width:1600px;
+    max-height: 646px;
+    padding: 100px 200px;
+    text-align: center;
+    background-color: grey;
+}
+
+#about-header-container{
+    color: white;
+    width: 1200px;
+    height: 222px;
+    border: 2px solid black;
+    margin-bottom: 160px;
+}
+#about-header{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 10px auto;
+}
+
+#about-statistic{
+    color: white;
+    width: 1200px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+.statistic-icon{
+    font-size: 48px;
+    font-weight: 900;
+    color:#00FF88;
+}
