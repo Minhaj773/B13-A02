@@ -157,6 +157,37 @@ span{
 }
 /* about ends */
 
+/* Featured starts */
+#host-container{
+    color: white;
+    background-color: rgb(47, 116, 93);
+}
+
+#host-container h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#host{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+#host h3{
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+
+
+
+
+
+
+
 /* footer starts */
 #footer{
     max-width: 1600px;
@@ -186,3 +217,4 @@ span{
     align-items: center;
     margin-left: 370px;
 }
+/*footer ends */
